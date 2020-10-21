@@ -1,6 +1,6 @@
 # Scraping-HowLongToBeat
 
-This is a program to scraping the site "howlongtobeat.com". It is only necessary to inform the name of the game that you wish collect information and the program will result data available in the site.
+This is a program to scraping the site "howlongtobeat.com". It is only necessary to inform the name of the game that you wish collect information and the program will return almost all data available in the site.
 
 ## Getting Started
 
@@ -74,7 +74,7 @@ None
 
 The program looks for the game with the same name that we typed, if you look in the site "howlongtobeat.com" when we search a game using the full name the results list will show an option with a green name.
 
-![HowLongToBeat Green Name](https://user-images.githubusercontent.com/20483869/87887747-3f5a9a80-c9fe-11ea-87d0-3b8cb353b3c4.png)
+![HowLongToBeat Green Name](./img/HowLongToBeat_Green_Name.png)
 
 If the name typed don't result an option with a green name the return will be:
 
@@ -82,9 +82,9 @@ If the name typed don't result an option with a green name the return will be:
 False
 ```
 
-### Story the time
+### Store time
 
-To store the time, was created a class. There we can collect what we want.
+To store time, was created a class. where we can store and collect what we wish.
 
 If we type only the name we receive a complete time text:
 ```
